@@ -5,6 +5,7 @@
 $(document).ready(function () {
   var mySwiper = new Swiper('.swiper-container', {
     direction: 'vertical',
+    mousewheelControl: true,
     onInit: function (swiper) {
       swiperAnimateCache(swiper);
       swiperAnimate(swiper)

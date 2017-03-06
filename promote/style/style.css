@@ -13,7 +13,6 @@ html, body {
     height: 100%;
     overflow: hidden;
 }
-
 .section {
     width: 100%;
     height: 100%;
@@ -26,4 +25,26 @@ html, body {
 
 .section1 {
     text-align: center;
+    background-color: #57D2F7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 div {
+    margin-top: -150px;
+}
+
+#s1-title {
+    font-size: 84px;
+}
+
+#s1-name {
+    margin-top: 100px;
+    font-size: 48px;
+}
+
+.section2 {
+    background-color: #79B841;
 }
