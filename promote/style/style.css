@@ -16,6 +16,16 @@ html, body {
 .section {
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 84px;
+    /*text-align: center;*/
 }
 
 /*.section1{background-color: black;}*/
@@ -24,20 +34,11 @@ html, body {
 /*.section4{background-color: green;}*/
 
 .section1 {
-    text-align: center;
     background-color: #57D2F7;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .section1 div {
     margin-top: -150px;
-}
-
-#s1-title {
-    font-size: 84px;
 }
 
 #s1-name {
@@ -47,4 +48,100 @@ html, body {
 
 .section2 {
     background-color: #79B841;
+}
+
+#s2-container {
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5%;
+}
+
+.item-block {
+    width: 15%;
+    z-index: 2;
+}
+
+.item-arrow {
+    width: 6%;
+    box-sizing: border-box;
+}
+
+.item-arrow img {
+    width: 100%;
+    margin: 70px 0;
+    z-index: 1;
+}
+
+.arrow-up {
+    transform: rotate(-45deg) scale(1.5) !important;
+}
+
+.arrow-down {
+    transform: rotate(45deg) scale(1.5) !important;
+}
+
+.arrow-right {
+    transform: scale(1.5);
+    margin: 100px 0 !important;
+}
+
+.block-content {
+    width: 150px;
+    height: 150px;
+    margin: 100px auto;
+    border: 10px solid white;
+    text-align: center;
+}
+
+.block-content div {
+    display: table-cell;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+}
+
+.block-content div span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 28px;
+}
+
+.section3 {
+    background-color: #57D2F7;
+}
+
+#s3-container {
+    height: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.s3-item {
+    height: 640px;
+    margin: 0 100px;
+}
+
+.s3-item-title {
+    font-size: 36px;
+    margin: 25px auto;
+}
+
+#flight-follow {
+    height: 470px;
+}
+
+#ckAODB {
+    height: 300px;
+}
+
+.s3-item p {
+    text-align: left;
+    font-size: 24px;
+    text-indent: 2em;
+    margin-top: 30px;
 }
